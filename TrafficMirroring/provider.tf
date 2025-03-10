@@ -11,9 +11,8 @@ provider "aws" {
       # Environment = "Prd",
       # Creator     = "",
       # Backup      = ""
-      Owner       = "Seung Joon",
+      Owner      = "Seung Joon",
       Validation = "Traffic Mirroring"
-      ssm = "y"
     }
   }
 }

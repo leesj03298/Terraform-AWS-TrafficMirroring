@@ -1,6 +1,6 @@
 module "dmz_vpc" {
-  source       = "../Module/securitygroup/"
-  securitygroups     = local.dmz_securitygroups
+  source         = "../Module/securitygroup/"
+  securitygroups = local.dmz_securitygroups
 }
 
 
